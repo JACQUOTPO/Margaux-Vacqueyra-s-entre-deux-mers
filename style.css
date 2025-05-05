@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #ffffff;
-  color: #3c2e2e;
+  color: #000000;
   line-height: 1.6;
 }
 
@@ -26,25 +26,26 @@ h1 {
 
 .subtitle {
   font-size: 1.2rem;
-  color: #7a5c5c;
+  color: #444444;
 }
 
 .accroche {
   font-style: italic;
   margin-top: 0.5rem;
-  color: #5c3b3b;
+  color: #222222;
 }
 
 nav {
   background: #ffffff;
   text-align: center;
   padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #7a4b4b;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -60,7 +61,7 @@ section {
 
 h2 {
   font-size: 1.8rem;
-  color: #5c3b3b;
+  color: #111111;
 }
 
 .gallery {
@@ -87,7 +88,7 @@ form input, form textarea {
 form button {
   padding: 0.6rem 1.2rem;
   border: none;
-  background-color: #7a4b4b;
+  background-color: #000000;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -95,7 +96,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #5c3b3b;
+  background-color: #444444;
 }
 
 footer {
@@ -103,5 +104,6 @@ footer {
   background: #ffffff;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #666;
+  color: #777;
+  border-top: 1px solid #e0e0e0;
 }
