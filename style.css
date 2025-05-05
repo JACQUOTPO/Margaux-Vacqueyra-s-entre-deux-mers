@@ -2,71 +2,78 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: #fefaf6;
+  color: #3c2e2e;
   line-height: 1.6;
 }
 
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #f5f5f5;
+  background-color: #f4e9e1;
 }
 
 .logo {
   width: 120px;
-  height: auto;
   margin-bottom: 1rem;
 }
 
 h1 {
   margin: 0;
   font-size: 2.5rem;
+  letter-spacing: 1px;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #666666;
+  color: #7a5c5c;
+}
+
+nav {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #7a4b4b;
+  font-weight: bold;
 }
 
 main {
   padding: 2rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 h2 {
   font-size: 1.8rem;
-  margin-bottom: 0.5rem;
+  color: #5c3b3b;
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-  font-family: 'Playfair Display', serif;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-a:hover {
-  text-decoration: underline;
+.gallery img {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
 footer {
   text-align: center;
+  background: #f4e9e1;
   padding: 1rem;
-  background-color: #f5f5f5;
   font-size: 0.9rem;
-  color: #777777;
-}
-
-.vin-photo {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin: 1.5rem auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #666;
 }
