@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background-color: #fefaf6;
+  background-color: #ffffff;
   color: #3c2e2e;
   line-height: 1.6;
 }
@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #f4e9e1;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -36,7 +36,7 @@ h1 {
 }
 
 nav {
-  background: #f0f0f0;
+  background: #ffffff;
   text-align: center;
   padding: 1rem;
 }
@@ -100,7 +100,7 @@ form button:hover {
 
 footer {
   text-align: center;
-  background: #f4e9e1;
+  background: #ffffff;
   padding: 1rem;
   font-size: 0.9rem;
   color: #666;
