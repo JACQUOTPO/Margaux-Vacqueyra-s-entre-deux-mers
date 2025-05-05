@@ -29,6 +29,12 @@ h1 {
   color: #7a5c5c;
 }
 
+.accroche {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #5c3b3b;
+}
+
 nav {
   background: #f0f0f0;
   text-align: center;
@@ -68,6 +74,28 @@ h2 {
   width: 250px;
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #7a4b4b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #5c3b3b;
 }
 
 footer {
